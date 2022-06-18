@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0px;
+}
+
+body{
+    font-size: 15px;
+  
+}
+.row{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 150px;
+    
+}
+h3{
+    font-family: url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.col-3{
+    flex-wrap: wrap;
+    min-height: 300px;
+    padding: 20px;
+    height: 450px;
+}
+.sedan{
+    background: hsl(31, 77%, 52%);
+}
+.suvs{
+    background: hsl(184, 100%, 22%);
+}
+.luxury{
+    background: hsl(179, 100%, 13%);
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+    letter-spacing: 3px;
+    font-family: url(https://fonts.google.com/specimen/Lexend+Deca);
+    font-weight: 400;
+}
+img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+button{
+    border-radius: 30%;
+    margin-top: 30px;
+    padding: 18px;
+    border: none;
+    background: hsl(0, 0%, 95%);
+}
+button:hover{
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+}

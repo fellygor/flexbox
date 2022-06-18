@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0px;
+}
+
+body{
+    font-size: 15px;
+  
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+}
+.box{
+    align-items: center;
+    min-height: 300px;
+    padding: 20px;
+    height: 450px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sedan{
+    background: hsl(310, 77%, 52%);
+}
+.suvs{
+    background: hsl(150, 100%, 22%);
+}
+.luxury{
+    background: hsla(0, 87%, 25%, 0.75);
+}
+p{
+    color: white;
+    line-height: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+button{
+    border-radius: 30%;
+    margin-top: 30px;
+    padding: 18px;
+    border: none;
+    background: hsl(0, 0%, 95%);
+}
+button:hover{
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+}
